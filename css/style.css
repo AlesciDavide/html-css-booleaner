@@ -38,6 +38,7 @@ main{
 .text-title-color{
     color: rgb(139, 138, 138);
     font-size: 20px;
+    margin-bottom: 0px;
 
 }
 
@@ -46,9 +47,9 @@ main{
     
 }
 
-.text-title-color >span{
+.text-title-color-two{
     font-size: 13px;
-    margin-top: 0;
+    color: rgb(139, 138, 138);
 }
 
 .padding-photo{
@@ -101,8 +102,9 @@ tbody{
 
 /* immagini con scritte */
 
-div.text-title-color{
+div.text-title-color-tree{
     color: rgb(139, 138, 138);
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .img-written-one{
