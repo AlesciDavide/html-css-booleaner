@@ -46,8 +46,9 @@ main{
     
 }
 
-.text-title-color > div{
+.text-title-color >span{
     font-size: 13px;
+    margin-top: 0;
 }
 
 .padding-photo{
