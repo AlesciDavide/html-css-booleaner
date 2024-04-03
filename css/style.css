@@ -2,7 +2,6 @@
 
 body{
     margin: 0;
-    font-family: ;
 }
 
 
@@ -24,7 +23,7 @@ body{
 
 .title-article > h1{
     width: 80%;
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin-top: 20px;
     margin-bottom: 0;
 }
@@ -32,6 +31,7 @@ body{
 .text-title-color{
     color: rgb(139, 138, 138);
     font-size: 20px;
+
 }
 
 .text-title-color > strong{
@@ -39,13 +39,41 @@ body{
     
 }
 
-.text-title-color > span{
+.text-title-color > div{
     font-size: 13px;
 }
 
+.padding-photo{
+    margin-top: 20px;
+}
 
 /* seconda section del main */
 
 .sub-photo{
     font-size: 13px;
+}
+
+
+/* quarta section del main */
+
+.list-ul-padding{
+    padding-left: 20px;
+}
+
+
+/* quinta section dal main table */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background-color: rgb(32, 169, 229);
+}
+
+.table-one{
+    height: 100%;
+}
+.columns-three{
+    width: 50%;
 }
