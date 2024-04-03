@@ -3,6 +3,9 @@
 body{
     margin: 0;
 }
+main{
+    margin: 5px;
+}
 
 
 .bg-header{
@@ -62,18 +65,31 @@ body{
 
 
 /* quinta section dal main table */
+.table-cont{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 table{
     width: 100%;
     border-collapse: collapse;
-}
-thead{
-    background-color: rgb(32, 169, 229);
+    text-align: left;
 }
 
-.table-one{
+thead{
+    background-color: rgb(32, 169, 229);
+    height: 100%;
+    color: white;
+}
+
+tbody{
     height: 100%;
 }
+
+.color-rows{
+    background-color: rgb(177, 229, 242);
+}
+
 .columns-three{
     width: 50%;
 }
