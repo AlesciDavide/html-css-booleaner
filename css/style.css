@@ -1,0 +1,51 @@
+/* header */
+
+body{
+    margin: 0;
+    font-family: ;
+}
+
+
+.bg-header{
+    background-color: rgb(78, 160, 255);
+    background-image: url(../img/pattern.png);
+    background-size: 30%;
+    align-items: center;
+    width: 100%;
+}
+
+.bg-header > img{
+    padding-top: 50px;
+    width: 15%;
+}
+
+
+/* prima section del main */
+
+.title-article > h1{
+    width: 80%;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.text-title-color{
+    color: rgb(139, 138, 138);
+    font-size: 20px;
+}
+
+.text-title-color > strong{
+    color: rgb(94, 192, 236);
+    
+}
+
+.text-title-color > span{
+    font-size: 13px;
+}
+
+
+/* seconda section del main */
+
+.sub-photo{
+    font-size: 13px;
+}
