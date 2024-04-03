@@ -1,3 +1,7 @@
+*{
+    box-sizing:border-box;
+}
+
 /* header */
 
 body{
@@ -92,4 +96,29 @@ tbody{
 
 .columns-three{
     width: 50%;
+}
+
+/* immagini con scritte */
+
+div.text-title-color{
+    color: rgb(139, 138, 138);
+    margin-bottom: 10px;
+}
+.img-written-one{
+    background-image: url(../img/monitor.jpg);
+    color: white;
+    font-size: 1.5em;
+    width: 310px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+
+.img-written-two{
+    background-image: url(../img/graph.jpg);
+    color: white;
+    font-size: 1.5em;
+    width: 310px;
+    height: 200px;
+    padding: 12px;
 }
