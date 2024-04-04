@@ -16,7 +16,6 @@ main{
     background-color: rgb(78, 160, 255);
     background-image: url(../img/pattern.png);
     background-size: 30%;
-    align-items: center;
     width: 100%;
 }
 
@@ -47,16 +46,18 @@ main{
     
 }
 
-.text-title-color-two{
+.text-title-color-font{
     font-size: 13px;
     color: rgb(139, 138, 138);
 }
 
+
+
+/* seconda section del main */
+
 .padding-photo{
     margin-top: 20px;
 }
-
-/* seconda section del main */
 
 .sub-photo{
     font-size: 13px;
@@ -102,7 +103,7 @@ tbody{
 
 /* immagini con scritte */
 
-div.text-title-color-tree{
+.text-title-color-tree{
     color: rgb(139, 138, 138);
     font-size: 20px;
     margin-bottom: 10px;
